@@ -12,4 +12,7 @@ applicationPromised.task2()
 applicationPromised.task3()
 applicationPromised.task4()
 
+let networkManager = NetworkManager()
+networkManager.testFunc()
+
 RunLoop.main.run()

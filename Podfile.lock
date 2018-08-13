@@ -1,25 +1,35 @@
 PODS:
-  - Alamofire (4.7.2)
+  - Alamofire (4.7.3)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
   - PromisesObjC (1.2.2)
   - PromisesSwift (1.2.2):
     - PromisesObjC (= 1.2.2)
+  - Result (3.2.4)
 
 DEPENDENCIES:
-  - Alamofire
+  - Moya
   - PromisesObjC
   - PromisesSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Moya
     - PromisesObjC
     - PromisesSwift
+    - Result
 
 SPEC CHECKSUMS:
-  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
   PromisesObjC: 3db4112f796a05782b4442364748f9126fea0b88
   PromisesSwift: a87c9b5fba61711bce16ac11d8d8bf96fc93fde0
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
 
-PODFILE CHECKSUM: 0c7f3680cb9db289d98647947acb27a98d1a2499
+PODFILE CHECKSUM: cbdbed2e7468fe3b048ee3c83987c11542f1999b
 
 COCOAPODS: 1.5.3
