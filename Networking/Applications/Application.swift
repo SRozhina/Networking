@@ -1,7 +1,7 @@
 import Foundation
 
 class Application {
-    private let networkingService: INetworkingService = AlamofireService()
+    private let networkingService: INetworkingService = MoyaNetworkingService()
     
     func task1() {
         networkingService.getAllUsers { users in

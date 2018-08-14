@@ -3,7 +3,7 @@
 
 target 'Networking' do
     inhibit_all_warnings!
-    pod 'Alamofire'
     pod 'PromisesObjC', :modular_headers => true
     pod 'PromisesSwift', :modular_headers => true
+    pod 'Moya'
 end
