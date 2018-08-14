@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C32C33C62122C3B200BFCA06 /* MoyaNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C33C52122C3B200BFCA06 /* MoyaNetworkingService.swift */; };
+		C32C33C82122D90700BFCA06 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C33C72122D90700BFCA06 /* DataExtension.swift */; };
 		C36510B620E8135F000A5B9C /* INetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36510B520E8135F000A5B9C /* INetworkingService.swift */; };
 		C36510B820E8136F000A5B9C /* AlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36510B720E8136F000A5B9C /* AlamofireService.swift */; };
 		C36510BA20E813F2000A5B9C /* PostInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36510B920E813F2000A5B9C /* PostInfo.swift */; };
@@ -39,6 +41,8 @@
 		0C2F9118D8DCDAAAD536769B /* libPods-Networking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Networking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491677A8C4D2208A6A127A31 /* Pods-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Networking/Pods-Networking.debug.xcconfig"; sourceTree = "<group>"; };
 		AF86D4D0F4B7D287E1316DE0 /* Pods-Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.release.xcconfig"; path = "Pods/Target Support Files/Pods-Networking/Pods-Networking.release.xcconfig"; sourceTree = "<group>"; };
+		C32C33C52122C3B200BFCA06 /* MoyaNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetworkingService.swift; sourceTree = "<group>"; };
+		C32C33C72122D90700BFCA06 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 		C36510B520E8135F000A5B9C /* INetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INetworkingService.swift; sourceTree = "<group>"; };
 		C36510B720E8136F000A5B9C /* AlamofireService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireService.swift; sourceTree = "<group>"; };
 		C36510B920E813F2000A5B9C /* PostInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostInfo.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 				C36510C120E8142F000A5B9C /* IPromisedNetworkingService.swift */,
 				C36510B720E8136F000A5B9C /* AlamofireService.swift */,
 				C36510B520E8135F000A5B9C /* INetworkingService.swift */,
+				C32C33C52122C3B200BFCA06 /* MoyaNetworkingService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				C36510D220E819D3000A5B9C /* Model */,
 				C36510D320E819DE000A5B9C /* Applications */,
 				C36510CD20E815F6000A5B9C /* main.swift */,
+				C32C33C72122D90700BFCA06 /* DataExtension.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -234,7 +240,9 @@
 				C36510CE20E815F6000A5B9C /* main.swift in Sources */,
 				C36510CC20E81487000A5B9C /* ApplicationPromised.swift in Sources */,
 				C3DC702920E8131B00EF514F /* User.swift in Sources */,
+				C32C33C82122D90700BFCA06 /* DataExtension.swift in Sources */,
 				C3AAD1EC20E810080013E846 /* Application.swift in Sources */,
+				C32C33C62122C3B200BFCA06 /* MoyaNetworkingService.swift in Sources */,
 				C36510C420E81433000A5B9C /* PromisedUrlSessionService.swift in Sources */,
 				C36510C620E81438000A5B9C /* UrlSessionService.swift in Sources */,
 				C36510C020E8142B000A5B9C /* Post.swift in Sources */,
